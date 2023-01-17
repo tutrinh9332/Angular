@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { NewComponentComponent } from './new-component/new-component.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent
+    ListComponent,
+    NewComponentComponent,
+    DemoComponent
   ],
   imports: [
     BrowserModule,
