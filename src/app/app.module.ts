@@ -5,16 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {ReactiveFormsModule} from "@angular/forms";
-
-
-import { TodoComponent } from './todo/todo.component';
-import { LoginComponent } from './login/login.component';
+import { TimelinesComponent } from './timelines/timelines.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoComponent,
-    LoginComponent
+    TimelinesComponent
   ],
   imports: [
     BrowserModule,
